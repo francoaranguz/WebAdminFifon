@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Ingresar - FIF ON</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="../../vendors/iconfonts/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="../../vendors/css/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="../../css/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="../../images/favicon.ico" />
+</head>
+
+<body>
+  <div class=" container-scroller">
+    <!-- partial:../../partials/_navbar.html -->
+    <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+          <a class="navbar-brand brand-logo"><img src="../../images/Logo.png" alt="logo"/></a>
+          <a class="navbar-brand brand-logo-mini"><img src="../../images/Logo.png" alt="logo"/></a>
+        </div>
+        <div class="navbar-menu-wrapper d-flex align-items-stretch">
+          <div class="search-field d-none d-md-block">
+  
+          </div>
+          <ul class="navbar-nav navbar-nav-right">
+            <li class="nav-item nav-profile dropdown">
+              <a class="nav-link">
+                <div class="nav-profile-text">
+                  <p class="mb-1 text-black">Usuario</p>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item nav-logout d-none d-lg-block">
+              <a class="nav-link" href="#">
+                <i class="mdi mdi-power"></i>
+              </a>
+            </li>
+          </ul>
+          <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+            <span class="mdi mdi-menu"></span>
+          </button>
+        </div>
+      </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:../../partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../../index.html">
+              <span class="menu-title">Reporte</span>
+              <i class=" mdi mdi-checkbox-marked-circle-outline menu-icon"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../pages/icons/mdi.html">
+              <span class="menu-title">Ingresar</span>
+              <i class=" mdi mdi-database-plus  menu-icon"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../pages/forms/basic_elements.html">
+              <span class="menu-title">Consultar</span>
+              <i class="mdi mdi-crosshairs menu-icon"></i>
+            </a>
+          </li>
+          <li class="nav-item sidebar-actions">
+            <span class="nav-link">
+              <button class="mdi mdi-settings btn btn-block btn-lg btn-gradient-primary mt-4"> Soporte</button>
+            </span>
+          </li>
+        </ul>
+      </nav>
+      <!-- partial -->
+      <div class="main-panel">          
+        <div class="content-wrapper">
+            <div class="page-header">
+              <h3 class="page-title">
+                Ingresar
+              </h3>
+            </div>
+            <div class="row">
+              <div class="col-md-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Ubicación</h4>
+                    <form class="forms-sample">
+                      <div class="form-group">
+                        <label for="exampleInputUsername1">Ingresa pasillo</label>
+                        <input type="number" class="form-control" id="idpasillo" placeholder="N° Pasillo">
+                        <img src="../../images/Pasillo.png">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Ingresa columna</label>
+                        <input type="number" class="form-control" id="idcolumna" placeholder="N° Columna">
+                        <img src="../../images/columna.png">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1">Ingresa Nivel</label>
+                        <input type="text" class="form-control" id="idnivel" placeholder="Letra Nivel">
+                        <img src="../../images/nivel.png">
+                      </div>
+                      <button type="submit" class="btn btn-gradient-primary mr-2">Guardar</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Producto</h4>
+                    <form class="forms-sample">
+                      <div class="form-group row">
+                        <label for="exampleInputUsername2" class="col-sm-3 col-form-label">Codigo Producto</label>
+                        <div class="col-sm-9">
+                          <input type="text" class="form-control" id="idcodigoproducto" placeholder="Ingresa Codigo">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Descripción Producto</label>
+                        <div class="col-sm-9">
+                          <input type="text" class="form-control" id="iddescripcionproducto" placeholder="Ingresa Descripción">
+                        </div>
+                      </div>
+                      <button type="submit" class="btn btn-gradient-primary mr-2">Guardar</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- partial:../../partials/_footer.html -->
+        <footer class="footer">
+            <div class="d-sm-flex justify-content-center justify-content-sm-between">
+              <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">&copy; <script>document.write(new Date().getFullYear())</script> Todos los derechos reservados | Diseñado por <a href="http://avarti.cl">Avarti Software</a></span>
+            </div>
+          </footer>
+        <!-- partial -->
+      </div>
+    </div>
+  </div>
+
+  <!-- plugins:js -->
+  <script src="../../vendors/js/vendor.bundle.base.js"></script>
+  <script src="../../vendors/js/vendor.bundle.addons.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page-->
+  <!-- End plugin js for this page-->
+  <!-- inject:js -->
+  <script src="../../js/off-canvas.js"></script>
+  <script src="../../js/misc.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <!-- End custom js for this page-->
+</body>
+
+</html>
