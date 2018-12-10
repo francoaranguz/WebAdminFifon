@@ -217,10 +217,10 @@
       var myChart = new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG'],
+            labels: ['ENE', 'FEB', 'MAR', 'ABR', 'MAY', 'JUN', 'JUL', 'AGO'],
             datasets: [
               {
-                label: "CHN",
+                label: "25528",
                 borderColor: gradientStrokeViolet,
                 backgroundColor: gradientStrokeViolet,
                 hoverBackgroundColor: gradientStrokeViolet,
@@ -232,7 +232,7 @@
                 data: [20, 40, 15, 35, 25, 50, 30, 20]
               },
               {
-                label: "USA",
+                label: "26543",
                 borderColor: gradientStrokeRed,
                 backgroundColor: gradientStrokeRed,
                 hoverBackgroundColor: gradientStrokeRed,
@@ -244,7 +244,7 @@
                 data: [40, 30, 20, 10, 50, 15, 35, 40]
               },
               {
-                label: "UK",
+                label: "37654",
                 borderColor: gradientStrokeBlue,
                 backgroundColor: gradientStrokeBlue,
                 hoverBackgroundColor: gradientStrokeBlue,
@@ -357,9 +357,9 @@
     
         // These labels appear in the legend and in the tooltips when hovering different arcs
         labels: [
-          'Search Engines',
-          'Direct Click',
-          'Bookmarks Click',
+          'Sucursal 1',
+          'Sucursal 2',
+          'Sucursal 3',
         ]
       };
       var trafficChartOptions = {

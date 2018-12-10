@@ -52,8 +52,14 @@
       <!-- partial:../../partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="../../index.html">
+                  <span class="menu-title">Dashboard</span>
+                  <i class="mdi mdi-home  menu-icon"></i>
+                </a>
+              </li>
           <li class="nav-item">
-            <a class="nav-link" href="../../index.html">
+            <a class="nav-link" href="../../pages/charts/chartjs.html">
               <span class="menu-title">Reporte</span>
               <i class=" mdi mdi-checkbox-marked-circle-outline menu-icon"></i>
             </a>
@@ -84,6 +90,30 @@
               <h3 class="page-title">
                 Ingresar
               </h3>
+            </div>
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Selecciona sucursal</h4>
+                  <p class="card-description">
+                    Debes seleccionar una sucursal, para ingresar ubicaciones o productos en ella.
+                  </p>
+                  <form class="forms-sample">
+                    <div class="form-group">
+                      <label for="exampleSelectGender">Sucursal</label>
+                        <select class="form-control" id="exampleSelectGender">
+                          <option>Seleccionar...</option>
+                          <option>Santa Marta</option>
+                          <option>Curico</option>
+                          <option>Illapel</option>
+                          <option>Coquimbo</option>
+                          <option>Lo Boza</option>
+                        </select>
+                      </div>
+                    <button type="submit" class="btn btn-gradient-primary mr-2">Seleccionar</button>
+                  </form>
+                </div>
+              </div>
             </div>
             <div class="row">
               <div class="col-md-6 grid-margin stretch-card">
