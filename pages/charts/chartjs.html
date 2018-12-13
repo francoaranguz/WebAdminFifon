@@ -53,35 +53,35 @@
       <!-- partial:partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
-          <li class="nav-item">
+          <!--<li class="nav-item">
             <a class="nav-link" href="../../index.html">
               <span class="menu-title">Dashboard</span>
               <i class="mdi mdi-home  menu-icon"></i>
             </a>
-          </li>
+          </li>-->
           <li class="nav-item">
             <a class="nav-link" href="../../pages/charts/chartjs.html">
               <span class="menu-title">Reporte</span>
               <i class=" mdi mdi-checkbox-marked-circle-outline menu-icon"></i>
             </a>
           </li>
-          <li class="nav-item">
+          <!--<li class="nav-item">
             <a class="nav-link" href="../../pages/icons/mdi.html">
               <span class="menu-title">Ingresar</span>
               <i class=" mdi mdi-database-plus  menu-icon"></i>
             </a>
-          </li>
-          <li class="nav-item">
+          </li>-->
+          <!--<li class="nav-item">
             <a class="nav-link" href="../../pages/forms/basic_elements.html">
               <span class="menu-title">Consultar</span>
               <i class="mdi mdi-crosshairs menu-icon"></i>
             </a>
-          </li>
-          <li class="nav-item sidebar-actions">
+          </li>-->
+          <!--<li class="nav-item sidebar-actions">
             <span class="nav-link">
               <button class="mdi mdi-settings btn btn-block btn-lg btn-gradient-primary mt-4"> Soporte</button>
             </span>
-          </li>
+          </li>-->
         </ul>
       </nav>
       <!-- partial -->
@@ -95,10 +95,17 @@
                   Reporte
                 </h3>
             </div>
+            <div class="col-12">
+                <span class="d-flex align-items-center purchase-popup">
+                  <p>Descargar información en excel</p>
+                  <a href="http://35.226.157.199/JSON/Excel.php" target="_blank" class="btn ml-auto purchase-button mdi mdi-file-excel "> Descargar</a>
+                </span>
+              </div>
+            
            <div class="row">
             <div class="col-12 grid-margin">
               <div class="card">
-                <iframe width=100% height="900" src="https://datastudio.google.com/embed/reporting/108wf4r1Ab8533Y4RWTrsRE25kwaWBsBM/page/jrDc" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe id="snakenet" width=100% height="900" src="https://datastudio.google.com/embed/reporting/108wf4r1Ab8533Y4RWTrsRE25kwaWBsBM/page/jrDc" frameborder="0" style="border:0" allowfullscreen></iframe>
               </div>
             </div>
           </div>

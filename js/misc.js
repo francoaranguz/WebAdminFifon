@@ -84,3 +84,10 @@
     })
   });
 })(jQuery);
+
+var iframe = document.getElementById('snakenet');
+var refreshInterval = 1000 * 60; // Refresh every 30 seconds
+
+setInterval(function() {
+  iframe.src = iframe.src;
+}, refreshInterval); 
